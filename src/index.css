@@ -1,0 +1,58 @@
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.logo{
+  width: 100px;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+  font-size: 25px;
+
+}
+
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.res-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.res-card {
+  margin: 5px;
+  padding: 5px;
+  width : 200px;
+  height: 300px;
+  height: auto;
+  
+}
+.res-card:hover{
+  cursor: pointer;
+  border: 1px solid black;
+}
+  
+
+.search {
+  padding: 5px;
+}
+
+.res-logo{
+  width: 90%;
+}
+
+.login{
+  padding: 0 20px;
+  cursor: pointer;;
+}
+
+.filter_btn{
+  display: flex;
+}
